@@ -8,7 +8,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
             <Icon name={props.nameIcon} size={22} color="#E0E0E0" backgroundColor="blue" />
             <View style={{ flex: 1, marginLeft: 8 }}>
                 <Text style={{ fontSize: 16, color: "#E0E0E0", height: 20 }}>{props.label}</Text>
-                <TextInput style={{ borderBottomWidth: 1, height: 40, borderBottomColor: '#E0E0E0' }} />
+                <TextInput style={{ borderBottomWidth: 1, height: 40, borderBottomColor: '#E0E0E0' , color:'#000'}} />
             </View>
         </View>
     )

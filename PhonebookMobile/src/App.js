@@ -5,6 +5,7 @@ import rootReducer from './redux/reducers';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
+import ImagePicker from 'react-native-image-picker';
 
 const store = createStore(rootReducer, applyMiddleware(thunk))
 
